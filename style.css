@@ -1,0 +1,239 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    outline: none ;
+    background-color: #ddd;
+    
+    
+}
+/* navbar */
+.container{
+    width: 100%;
+    background-color: #fff;
+    
+    color: rgb(85, 85, 85);
+}
+.main-item{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+    list-style-type: none;
+    align-content: flex-start   ;
+    
+    
+    margin-right: 50px;
+    color: white;
+}
+div.main-items{
+    width: 100%;
+    height: 130px;
+    background-image: url("page-title-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px 0px;
+    
+
+}
+/* a href */
+.item .href{
+    text-align: center;
+    text-decoration: none;
+    padding: 0px 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: rgb(73, 73, 73);
+    
+}
+/* li dropdown */
+.item-header{
+    position: relative;
+    display: inline-block;
+    background-color: rgb(68, 68, 68);
+    
+}
+.ortasi{
+    position: absolute;
+    display: none;
+    list-style-type: none;  
+    width: 100%;
+}
+.drop,.ac:hover{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    background-color: #fff;
+    color: black;
+}
+.item-header:hover > .dropdown{
+    display: block;
+}
+.dropdown > a{
+    display: block;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+.dropdown > a:hover{
+    color: green;
+    background-color: #fff;
+}
+
+.item-header a{
+    width: 80px;
+    display: flex;  
+    text-decoration: none;
+    font-weight: 600;
+    background-color: rgb(146, 146, 250);
+    justify-content: center;
+    align-items: center;    
+    height: 50px;
+}
+/* /navbar */
+/* main */
+.main-items{
+    display: flex;
+    border: 1px solid black;
+    background-color: rgb(93, 93, 224);
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 0px 100px 0px 100px; */
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    
+
+}
+.box,.a3,.a4{
+    display: inline-block;
+    font-weight:normal;  
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+}
+.box2,.a2{
+    color:rgb(94, 94, 253);
+    display: inline-block;
+    font-weight: normal;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.container2{
+    width: 600px;
+    /* height: 600px; */
+    margin: 100px auto;
+    border: 1px solid rgb(236, 226, 226);
+    background-color: #fff;
+}
+.email{
+    width: 100%;
+    height: 1000px;
+    /* border: red solid 5px; */
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+button{
+    width: 400px;
+    height: 50px;
+    font-size: 30px;
+    border: none;
+    background-color: #2f5a87;
+    color: white;
+}
+input{
+    width: 400px;
+    height: 30px;
+    font-size: 15px;
+    box-shadow: rgb(16, 113, 240) 0px 0px 10px;
+    border: none;
+    
+}
+.p{
+    padding-top: 100px;
+    /* border: black 1px solid; */
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    justify-content: center;
+    background-color: #fff;
+    margin-top: 20px;
+}
+ .button:hover{
+    background-color: rgb(61, 61, 61);
+}
+.kan{
+    width: 200px;
+    height: 40px;
+    background-color:#2f5a87;
+    margin-bottom: 15px;
+    margin-left: 45px;
+    text-align: center;
+    color: white;
+    transition: all 1s ease;
+    
+    
+}
+.ish{
+    width: 200px;
+    height: 40px;
+    background-color: #2f5a87;
+    margin-bottom: 15px;
+    margin-right: 45px;
+    margin-left: 15px;
+    text-align: center;
+    color: white;
+    transition: all 1s ease;
+
+}
+.w{
+    display: flex;
+}
+.ish1{
+    margin-top: 8px;
+}
+.kan1{
+    margin-top: 8px;
+}
+.ish:hover{
+    background-color: #fff;
+    color: #2f5a87 ;
+}
+.kan:hover{
+    background-color: #fff;
+    color: #2f5a87 ;
+}
+.mar{
+    position: relative;
+   bottom: 80px;
+}
+.footer{
+    display: block;
+    background-color: #f2dede;
+  color:   #a94442;
+  border: solid 1px #ebccd1;
+  justify-content: center;
+  width: 500px;
+  height: 150px;
+}
+.fotter-foot{
+    display: block;
+    text-decoration: none;
+    font-size: 1.9rem;
+ 
+}
+.imm{
+    position: relative;
+    right: 420px;
+    top: 200px;
+    width: 100%;
+
+}
